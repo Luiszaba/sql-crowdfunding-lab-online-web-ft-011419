@@ -5,6 +5,7 @@
 # end
 
 # Make sure each ruby method returns a string containing a valid SQL statement.
+# Make use of the AS method
 
 # Select * FROM - In some cases this method will not work.  Must use SELECT followed by the table.column_name.
 
