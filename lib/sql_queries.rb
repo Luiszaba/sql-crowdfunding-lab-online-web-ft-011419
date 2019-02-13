@@ -32,5 +32,5 @@ projects.id = pledges.project_id WHERE projects.category = 'music';"
 end
 
 def selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category
-"SELECT project.category, SUM(pledges.amount) FROM projects JOIN pledges ON projects.id = pledges.project_id WHERE projects.category = 'books';" 
+"SELECT projects.category, SUM(pledges.amount) FROM projects JOIN pledges ON projects.id = pledges.project_id WHERE projects.category = 'books';" 
 end
